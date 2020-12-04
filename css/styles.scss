@@ -35,3 +35,9 @@ $neutralColors: (
 html {
   font-size: 62.5%;
 }
+
+body {
+    color: neutralColor(very-dark-blue);
+}
+
+@import "header";
