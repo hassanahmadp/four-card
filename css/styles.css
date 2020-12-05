@@ -40,11 +40,11 @@ main {
   margin: 0 auto;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-  -ms-grid-rows: (10rem)[4];
-      grid-template-rows: repeat(4, 10rem);
-  grid-gap: 3rem;
+  -ms-grid-columns: (34.5rem)[3];
+      grid-template-columns: repeat(3, 34.5rem);
+  -ms-grid-rows: (11.5rem)[4];
+      grid-template-rows: repeat(4, 11.5rem);
+  grid-gap: 2.5rem;
 }
 
 main .grid-elements {
@@ -58,19 +58,21 @@ main .grid-elements {
 
 main .grid-elements h3 {
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
 main .grid-elements p {
-  margin-top: 1rem;
-  line-height: 2rem;
+  margin-top: 1.3rem;
+  line-height: 2.5rem;
   font-size: 1.5rem;
-  font-weight: 400;
+  font-weight: 200;
   color: #a3a5ae;
 }
 
 main .grid-elements img {
   position: absolute;
+  bottom: 3rem;
+  right: 3rem;
 }
 
 main .supervisor {
