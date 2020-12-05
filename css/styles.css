@@ -28,16 +28,16 @@ header .upper-heading {
 }
 
 header p {
-  margin-top: 1.5rem;
+  font-weight: 400;
+  margin: 1.5rem auto 0;
   font-size: 1.5rem;
-  font-weight: 200;
-  padding: 0 38rem;
+  color: #a3a5ae;
+  width: 35vw;
 }
 
 main {
-  width: 100rem;
+  width: 110rem;
   margin: 0 auto;
-  text-align: center;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[3];
@@ -48,10 +48,29 @@ main {
 }
 
 main .grid-elements {
+  position: relative;
   border-radius: 0.8rem;
   border-top: 0.5rem solid black;
   -webkit-box-shadow: 0.5rem 0.5rem 2.5rem #d9dadd;
           box-shadow: 0.5rem 0.5rem 2.5rem #d9dadd;
+  padding: 3rem;
+}
+
+main .grid-elements h3 {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+main .grid-elements p {
+  margin-top: 1rem;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #a3a5ae;
+}
+
+main .grid-elements img {
+  position: absolute;
 }
 
 main .supervisor {

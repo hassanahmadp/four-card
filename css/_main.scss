@@ -1,7 +1,6 @@
 main {
-  width: 100rem;
+  width: 110rem;
   margin: 0 auto;
-  text-align: center;
   //   background-color: black;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -10,9 +9,25 @@ main {
 
   .grid-elements {
     // background-color: pink;
+    position: relative;
     border-radius: 0.8rem;
     border-top: 0.5rem solid black;
     box-shadow: 0.5rem 0.5rem 2.5rem lighten(neutralColor(grayish-blue), 20%);
+    padding: 3rem;
+    h3 {
+      font-weight: 600;
+      font-size: 2rem;
+    }
+    p {
+      margin-top: 1rem;
+      line-height: 2rem;
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: neutralColor(grayish-blue);
+    }
+    img {
+      position: absolute;
+    }
   }
   .supervisor {
     border-color: primaryColor(cyan);
