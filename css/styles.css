@@ -36,12 +36,12 @@ header p {
 }
 
 main {
-  width: 110rem;
+  width: 112rem;
   margin: 0 auto;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (34.5rem)[3];
-      grid-template-columns: repeat(3, 34.5rem);
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
   -ms-grid-rows: (11.5rem)[4];
       grid-template-rows: repeat(4, 11.5rem);
   grid-gap: 2.5rem;
