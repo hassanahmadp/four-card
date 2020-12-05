@@ -114,4 +114,48 @@ main .calculator {
   -ms-grid-row-span: 2;
   grid-row: 2/4;
 }
+
+@media (max-width: 1200px) {
+  main {
+    -ms-grid-columns: (minmax(25rem, 1fr))[auto];
+        grid-template-columns: repeat(auto, minmax(25rem, 1fr));
+    -ms-grid-rows: (11.5rem)[auto];
+        grid-template-rows: repeat(auto, 11.5rem);
+    grid-gap: 2.5rem;
+  }
+  main .grid-elements {
+    position: relative;
+    border-radius: 0.8rem;
+    border-top: 0.5rem solid black;
+    -webkit-box-shadow: 0.5rem 0.5rem 2.5rem #d9dadd;
+            box-shadow: 0.5rem 0.5rem 2.5rem #d9dadd;
+    padding: 3rem;
+  }
+  main .grid-elements h3 {
+    font-weight: 600;
+    font-size: 2.2rem;
+  }
+  main .grid-elements p {
+    margin-top: 1.3rem;
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: #a3a5ae;
+  }
+  main .grid-elements img {
+    position: absolute;
+  }
+  main .supervisor {
+    border-color: #45d3d3;
+  }
+  main .team-builder {
+    border-color: #ea5353;
+  }
+  main .karma {
+    border-color: #fcaf4a;
+  }
+  main .calculator {
+    border-color: #549ef2;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
