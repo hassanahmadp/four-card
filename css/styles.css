@@ -22,7 +22,7 @@ body {
 
 @media (max-width: 400px) {
   html {
-    font-size: 45%;
+    font-size: 50%;
   }
 }
 
@@ -144,8 +144,8 @@ main .calculator {
     height: auto;
     -ms-grid-columns: (minmax(29rem, 1fr))[auto-fit];
         grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
-    -ms-grid-rows: (23rem)[4];
-        grid-template-rows: repeat(4, 23rem);
+    -ms-grid-rows: (30rem)[4];
+        grid-template-rows: repeat(4, 30rem);
     grid-gap: 2.5rem;
   }
   main .grid-elements {
