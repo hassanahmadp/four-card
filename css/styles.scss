@@ -6,7 +6,7 @@ $primaryColors: (
 );
 
 @function primaryColor($color) {
-    @return map-get($primaryColors, $color);
+  @return map-get($primaryColors, $color);
 }
 
 $neutralColors: (
@@ -16,13 +16,13 @@ $neutralColors: (
 );
 
 @function neutralColor($color) {
-    @return map-get($neutralColors, $color);
+  @return map-get($neutralColors, $color);
 }
 
-@mixin flex($just,$align) {
-    display: flex;
-    justify-content: $just;
-    align-items: $align;
+@mixin flex($just, $align) {
+  display: flex;
+  justify-content: $just;
+  align-items: $align;
 }
 
 * {
@@ -37,7 +37,19 @@ html {
 }
 
 body {
-    color: neutralColor(very-dark-blue);
+  color: neutralColor(very-dark-blue);
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 45%;
+  }
 }
 
 @import "header";

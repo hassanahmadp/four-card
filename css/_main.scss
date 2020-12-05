@@ -53,16 +53,15 @@ main {
 
 @media (max-width: 1200px) {
   main {
-    grid-template-columns: repeat(auto, minmax(25rem, 1fr));
-    grid-template-rows: repeat(auto, 11.5rem);
+    height: auto;
+    grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
+    grid-template-rows: repeat(4, 23rem);
     grid-gap: 2.5rem;
 
     .grid-elements {
-      position: relative;
-      border-radius: 0.8rem;
-      border-top: 0.5rem solid black;
-      box-shadow: 0.5rem 0.5rem 2.5rem lighten(neutralColor(grayish-blue), 20%);
       padding: 3rem;
+      grid-column: auto;
+      grid-row: auto;
       h3 {
         font-weight: 600;
         font-size: 2.2rem;
