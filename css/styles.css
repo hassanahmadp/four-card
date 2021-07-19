@@ -12,7 +12,7 @@ html {
 
 body {
   color: #4c4e61;
-  background-color: #fafafa;
+  background-color: #f0f0f0;
 }
 
 @media (max-width: 500px) {
@@ -62,7 +62,7 @@ header p {
 
 main {
   width: 75vw;
-  margin: 0 auto;
+  margin: 0 auto 5rem;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[3];
@@ -73,6 +73,7 @@ main {
 }
 
 main .grid-elements {
+  background: white;
   position: relative;
   border-radius: 0.8rem;
   border-top: 0.5rem solid black;

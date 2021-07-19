@@ -1,12 +1,13 @@
 main {
   width: 75vw;
-  margin: 0 auto;
+  margin: 0 auto 5rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 11.5rem);
   grid-gap: 2.5rem;
 
   .grid-elements {
+    background: white;
     position: relative;
     border-radius: 0.8rem;
     border-top: 0.5rem solid black;
